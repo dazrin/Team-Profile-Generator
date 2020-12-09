@@ -33,7 +33,7 @@ const askForTeamInfo = async () => {
                     type: 'input',
                     name: 'teamName',
                     message: `What is your team's Name? `,
-                    when: (answer) => {
+                    when: (answers) => {
                         return answers.yesNo;
                     },
                 }
@@ -42,7 +42,7 @@ const askForTeamInfo = async () => {
                 console.log(chalk.yellow(`\nGenerating Team's Web page...`));
                 let teamName = '';
                 if (answer.teamName) {
-                    team = ' - ' + answer.teamName;
+                    teamName = ' - ' + answer.teamName;
                 }
             // Call render function to generate html page
             const html = render(team, teamName);
