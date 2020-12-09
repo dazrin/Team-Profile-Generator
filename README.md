@@ -11,6 +11,7 @@
 
 ## About
 This is a command line application that takes in data from the user to create 'Team Member' objects using an Employee class which are pushed into an array and displayed to the user by generating an HTML webpage. This application was made using nodeJS and uses Jest for unit testing.
+ > Demo video: https://drive.google.com/file/d/1qOuW4UOYjOwBq1E1HrxjnABwc3HIPzRw/view
 
 ## Instructions
 1. Navigate to the project directory and open a terminal in that directory
